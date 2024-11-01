@@ -5,7 +5,7 @@
 
 .main {
   width: 100%;
-  background-color: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("aman.jpg");
+  background-color: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(aman.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -47,8 +47,48 @@ ul li{
 }
 ul li a{
   text-decoration: none;
-  color: white;
+  color: rgb(63, 27, 27);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   transition: 0.4s ease-out;
+}
+ul li a:hover{
+  color: rgb(199, 145, 44);
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+.srch{
+  font-family: 'Times New Roman', Times, serif;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid rgb(14, 11, 11);
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background-color: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn:focus{
+  outline: none;
+}
+.srch:focus{
+  outline: none;
 }
