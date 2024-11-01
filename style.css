@@ -5,7 +5,8 @@
 
 .main {
   width: 100%;
-  background-color: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(aman.jpg);
+  background-color: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  background-image:url(https://onetreeplanted.org/cdn/shop/files/dramatic-tree-1661526783684.jpg?v=1686596132);
   background-position: center;
   background-size: cover;
   height: 100vh;
